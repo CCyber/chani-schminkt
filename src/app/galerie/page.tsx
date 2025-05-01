@@ -1,9 +1,9 @@
-import Hero from "@/components/Hero";
+import Galerie from "@/components/Galerie";
 
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Galerie />
       {/* weitere Sektionen */}
     </>
   );
