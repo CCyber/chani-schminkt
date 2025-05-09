@@ -12,7 +12,7 @@ export default function Hero() {
           Kunst, die berührt
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-gray-700">
-          Mauke erschafft Werke voller Seele – entdecke ihre Welt.
+          Ich erschaffe Werke voller Seele – entdecke meine Welt.
         </p>
         <Link
           href="/galerie"
@@ -23,9 +23,9 @@ export default function Hero() {
       </div>
 
       {/* Hintergrundbild (optional) */}
-      <div className="absolute inset-0 z-0 opacity-25">
+      <div className="absolute inset-0 z-0">
         <Image
-          src="/hero-artwork.jpg"
+          src="/images/hero.jpg"
           alt="Mauke Artwork"
           fill
           className="object-cover"
